@@ -1,6 +1,7 @@
 h1 {
     background-color: teal;
     color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif
 
 }
 
@@ -11,11 +12,11 @@ P {
 
 
 head {
-    border-color #cccccc
+    border-color: #cccccc
 }
 
 footer {  
 
-    background-color: #666666;
+    background-color: #666666
 }
 
