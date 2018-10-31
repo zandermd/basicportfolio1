@@ -1,22 +1,72 @@
+body{
+    width: 960px;
+    background-image: url(file:///Users/zanderdyer/Downloads/what-the-hex%203/what-the-hex.png);
+    height: 960px;
+    float: center;
+}
+
 h1 {
     background-color: teal;
     color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif
-
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 150px;
 }
 
 P { 
     color: #777777;
+    text-align: center;
+    line-height: 30px;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    font-family: Arial, Helvetica, sans-serif;
+    float: center;
 
 }
 
 
 head {
-    border-color: #cccccc
+    border-color: #cccccc;
 }
+
+.container{
+    font-size: medium;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    height: 300px;
+    padding: 30px;
+    float: center;
+
+}
+
+h2 {
+    color: #4aaaa5;
+    border-bottom: 2px solid #cccccc;
+    padding: 14px;
+}
+
+img{
+    float: left;
+    width: 100px;
+    height: 180px;
+
+}
+
+
 
 footer {  
 
-    background-color: #666666
+    background-color: #666666;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+
 }
+
+.clearfix::after{
+	content: “”;
+	display: block;
+	clear: both;
+     }
 
