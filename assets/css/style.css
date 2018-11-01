@@ -12,7 +12,7 @@ h1 {
     width: 150px;
 }
 
-P { 
+p { 
     color: #777777;
     line-height: 30px;
     background-color: #ffffff;
@@ -32,7 +32,10 @@ head {
     background-color: #ffffff;
     border-color: #dddddd;
     height: 300px;
-    width: 960px;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
     float: center;
 
 }
@@ -50,8 +53,6 @@ img{
 
 }
 
-
-
 footer {  
 
     background-color: #666666;
@@ -63,4 +64,34 @@ footer {
 
 }
 
+#masthead{
+    position: top;
+    z-index: 99;
+    width: 100%;
+    margin: 0 0 30px;
+    overflow: auto;
+    color: #fff;
+    background: #fff;
+    border-bottom: 2px solid #ccc;
 
+}
+
+#logo {
+    float: left;
+    width: 250px;
+    height: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
+}
+
+nav {
+    float: right;
+    margin-top: 25px;
+
+}
