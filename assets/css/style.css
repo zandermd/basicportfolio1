@@ -3,6 +3,8 @@ body{
     background-image: url(file:///Users/zanderdyer/Downloads/what-the-hex%203/what-the-hex.png);
     height: 960px;
     float: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1 {
@@ -56,7 +58,7 @@ img{
 
 }
 
-footer {  
+#footer {  
 
     background-color: #666666;
     position: fixed;
@@ -65,7 +67,7 @@ footer {
     width: 100%;
     text-align: center;
     padding: 15px;
-    border-top-color: #4aaaa5;
+    border-top: 5px solid #4aaaa5;
 
 }
 
