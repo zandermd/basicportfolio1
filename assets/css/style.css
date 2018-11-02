@@ -25,6 +25,13 @@ p {
 
 }
 
+ul {
+    /* list-style-type: none;
+    margin: 0;
+    padding: 0;  */ 
+    display: inline;
+}
+
 
 head {
     border-color: #cccccc;
@@ -99,6 +106,11 @@ img{
 
 nav {
     float: right;
-    margin-top: 70px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    border-bottom: 2px solid #dddddd;
+    top: 0;
     
 }
